@@ -62,24 +62,24 @@ const destinations = [
 
 export default function DestinationsPage() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#f7f3eb] text-[#213d3a]">
+    <main className="min-h-screen overflow-x-hidden bg-[#fdf3f1] text-[#3d1720]">
       <header className="mx-auto flex max-w-6xl px-6 py-6 sm:px-10 lg:px-16">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-sm font-bold text-[#b85b31] transition-colors hover:text-[#8e4224]"
+          className="inline-flex items-center gap-2 text-sm font-bold text-[#b83a45] transition-colors hover:text-[#7f1725]"
         >
           <span aria-hidden="true">&lt;-</span> Volver al catálogo
         </Link>
       </header>
 
       <section className="mx-auto max-w-6xl px-6 pb-14 pt-6 sm:px-10 lg:px-16 lg:pb-20">
-        <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#b85b31]">
+        <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#b83a45]">
           Más para descubrir
         </p>
         <h1 className="mt-4 max-w-3xl text-5xl font-semibold tracking-tight sm:text-6xl">
           Tres paisajes, tres maneras de recorrer Catamarca.
         </h1>
-        <p className="mt-6 max-w-2xl text-lg leading-8 text-[#56706b]">
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-[#7b545c]">
           Desde las lagunas de altura hasta las rutas serranas y el desierto,
           estos destinos invitan a mirar la provincia desde perspectivas distintas.
         </p>
@@ -89,7 +89,7 @@ export default function DestinationsPage() {
         {destinations.map((destination, index) => (
           <article
             key={destination.name}
-            className="grid overflow-hidden rounded-3xl bg-white shadow-[0_12px_35px_rgba(33,61,58,0.1)] md:grid-cols-2"
+            className="grid overflow-hidden rounded-3xl bg-white shadow-[0_12px_35px_rgba(80,20,30,0.1)] md:grid-cols-2"
           >
             <div className={`relative min-h-72 ${index % 2 === 1 ? "md:order-2" : ""}`}>
               <Image
@@ -100,7 +100,7 @@ export default function DestinationsPage() {
                 className="object-cover"
               />
               {destination.credit ? (
-                <p className="absolute bottom-0 right-0 bg-[#213d3a]/80 px-3 py-2 text-xs text-white">
+                <p className="absolute bottom-0 right-0 bg-[#3d1720]/80 px-3 py-2 text-xs text-white">
                   Foto: {" "}
                   <a
                     href={destination.source ?? undefined}
@@ -121,23 +121,23 @@ export default function DestinationsPage() {
                   </a>
                 </p>
               ) : (
-                <p className="absolute bottom-0 right-0 bg-[#213d3a]/80 px-3 py-2 text-xs text-white">
+                <p className="absolute bottom-0 right-0 bg-[#3d1720]/80 px-3 py-2 text-xs text-white">
                   Ilustración representativa
                 </p>
               )}
             </div>
             <div className="flex flex-col justify-center p-7 sm:p-10">
-              <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#b85b31]">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#b83a45]">
                 {destination.category}
               </p>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight">
                 {destination.name}
               </h2>
-              <p className="mt-2 text-sm font-semibold text-[#5e7671]">
+              <p className="mt-2 text-sm font-semibold text-[#8a5d64]">
                 {destination.locality}
               </p>
-              <p className="mt-6 leading-7 text-[#405b56]">{destination.description}</p>
-              <p className="mt-4 leading-7 text-[#56706b]">{destination.detail}</p>
+              <p className="mt-6 leading-7 text-[#633741]">{destination.description}</p>
+              <p className="mt-4 leading-7 text-[#7b545c]">{destination.detail}</p>
             </div>
           </article>
         ))}

@@ -60,17 +60,17 @@ const places = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#f7f3eb] text-[#213d3a]">
-      <section className="relative overflow-hidden bg-[#254f4a] px-6 py-20 text-[#f8f1df] sm:px-10 lg:px-16 lg:py-28">
-        <div className="absolute -right-24 -top-28 h-80 w-80 rounded-full border-[36px] border-[#d88f4d] opacity-80" />
+    <main className="min-h-screen overflow-x-hidden bg-[#fdf3f1] text-[#3d1720]">
+      <section className="relative overflow-hidden bg-[#6f1d2a] px-6 py-20 text-[#fdf4f1] sm:px-10 lg:px-16 lg:py-28">
+        <div className="absolute -right-24 -top-28 h-80 w-80 rounded-full border-[36px] border-[#e06b5b] opacity-80" />
         <div className="relative mx-auto max-w-6xl">
-          <p className="mb-5 text-xs font-bold uppercase tracking-[0.25em] text-[#f1bd74]">
+          <p className="mb-5 text-xs font-bold uppercase tracking-[0.25em] text-[#f5bf9f]">
             Norte argentino
           </p>
           <h1 className="max-w-3xl text-5xl font-semibold tracking-tight sm:text-6xl lg:text-7xl">
             Catamarca, tierra de horizontes inmensos.
           </h1>
-          <p className="mt-7 max-w-2xl text-lg leading-8 text-[#e0eadb] sm:text-xl">
+          <p className="mt-7 max-w-2xl text-lg leading-8 text-[#f7d9d2] sm:text-xl">
             Una selección inicial de paisajes para empezar a descubrir la
             provincia entre volcanes, lagunas, rutas y desiertos.
           </p>
@@ -80,14 +80,14 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-6 py-16 sm:px-10 lg:px-16 lg:py-20">
         <div className="mb-10 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#b85b31]">
+            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#b83a45]">
               Destinos destacados
             </p>
             <h2 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">
               Cuatro formas de vivir Catamarca
             </h2>
           </div>
-          <p className="max-w-xs text-sm leading-6 text-[#56706b]">
+          <p className="max-w-xs text-sm leading-6 text-[#7b545c]">
             Paisajes emblemáticos para planificar la próxima escapada.
           </p>
         </div>
@@ -96,7 +96,7 @@ export default function Home() {
           {places.map((place, index) => (
             <article
               key={place.name}
-              className={`group overflow-hidden rounded-3xl bg-white shadow-[0_12px_35px_rgba(33,61,58,0.1)] ${index === 0 ? "md:col-span-2" : ""}`}
+              className={`group overflow-hidden rounded-3xl bg-white shadow-[0_12px_35px_rgba(80,20,30,0.1)] ${index === 0 ? "md:col-span-2" : ""}`}
             >
               <div className={`relative overflow-hidden ${index === 0 ? "h-72 sm:h-80" : "h-60"}`}>
                 <Image
@@ -108,24 +108,24 @@ export default function Home() {
                 />
               </div>
               <div className="p-6 sm:p-7">
-                <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#b85b31]">
+                <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#b83a45]">
                   {place.category}
                 </p>
-                <h3 className="mt-2 text-2xl font-semibold tracking-tight text-[#21433f]">
+                <h3 className="mt-2 text-2xl font-semibold tracking-tight text-[#531c27]">
                   {place.name}
                 </h3>
-                <p className="mt-1 text-sm font-medium text-[#5e7671]">
+                <p className="mt-1 text-sm font-medium text-[#8a5d64]">
                   {place.locality}
                 </p>
-                <p className="mt-4 leading-7 text-[#405b56]">{place.description}</p>
+                <p className="mt-4 leading-7 text-[#633741]">{place.description}</p>
                 {place.credit && (
-                  <p className="mt-4 text-xs text-[#6d817c]">
+                  <p className="mt-4 text-xs text-[#8d6870]">
                     Foto: {" "}
                     <a
                       href={place.source}
                       target="_blank"
                       rel="noreferrer"
-                      className="underline underline-offset-2 hover:text-[#21433f]"
+                      className="underline underline-offset-2 hover:text-[#531c27]"
                     >
                       {place.credit}
                     </a>{" "}
@@ -134,7 +134,7 @@ export default function Home() {
                       href={place.licenseUrl}
                       target="_blank"
                       rel="noreferrer"
-                      className="underline underline-offset-2 hover:text-[#21433f]"
+                      className="underline underline-offset-2 hover:text-[#531c27]"
                     >
                       {place.license}
                     </a>
@@ -143,7 +143,7 @@ export default function Home() {
                 {place.name === "Campo de Piedra Pómez" && (
                   <Link
                     href="/campo-de-piedra-pomez"
-                    className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-[#b85b31] transition-colors hover:text-[#8e4224]"
+                    className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-[#b83a45] transition-colors hover:text-[#7f1725]"
                   >
                     Conocer el destino <span aria-hidden="true">-&gt;</span>
                   </Link>
@@ -154,7 +154,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="border-t border-[#d9d0bf] px-6 py-8 text-center text-sm text-[#5d706b]">
+      <footer className="border-t border-[#e7cbc6] px-6 py-8 text-center text-sm text-[#7a535b]">
         Turismo Catamarca · Una primera guía para inspirar el viaje.
       </footer>
     </main>
