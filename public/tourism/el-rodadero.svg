@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">El Rodadero</title>
+  <desc id="desc">Ilustración de dunas de arena dorada frente a montañas.</desc>
+  <rect width="1200" height="800" fill="#97bed0"/>
+  <path d="M0 434 191 272l163 119 167-156 144 142 177-121 191 124 167-79v495H0Z" fill="#856959"/>
+  <path d="M0 535c136-108 230-90 361 12 146 113 263-88 406-8 155 87 276-54 433 14v247H0Z" fill="#d3a468"/>
+  <path d="M0 635c132-88 274-51 395 10 131 66 260-42 400-24 142 18 218-58 405 4v175H0Z" fill="#e9c982"/>
+  <path d="M0 722c163-94 305 22 433-19 147-48 232 40 357 7 147-39 253 23 410-14v104H0Z" fill="#f7dfaa"/>
+</svg>

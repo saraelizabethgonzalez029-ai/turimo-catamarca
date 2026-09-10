@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Campo de Piedra Pómez</title>
+  <desc id="desc">Ilustración de formaciones rocosas blancas bajo un cielo azul.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#80b9d4"/><stop offset="1" stop-color="#e9d5a4"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="922" cy="151" r="66" fill="#fff0b6"/>
+  <path d="M0 458 215 322l168 116 191-177 177 184 160-95 289 139v311H0Z" fill="#ad7259"/>
+  <path d="M0 538 232 434l172 91 166-103 179 113 177-90 274 108v247H0Z" fill="#d8b484"/>
+  <path d="M0 638 177 575l141 45 103-76 140 88 138-117 161 91 102-72 138 78v188H0Z" fill="#eee3c8"/>
+  <g fill="#f9f6e9" stroke="#d8c7a3" stroke-width="8"><path d="m253 579 53-164 62 36 10 144z"/><path d="m517 616 42-218 72 49 21 182z"/><path d="m821 609 44-169 68 37 16 139z"/></g>
+</svg>

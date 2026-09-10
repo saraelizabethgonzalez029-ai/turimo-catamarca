@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Cuesta del Portezuelo</title>
+  <desc id="desc">Ilustración de un camino sinuoso entre sierras verdes.</desc>
+  <rect width="1200" height="800" fill="#f0c589"/>
+  <circle cx="205" cy="154" r="76" fill="#fff1ba"/>
+  <path d="M0 334 210 169l177 177 151-114 168 132 187-185 307 157v464H0Z" fill="#6d8a63"/>
+  <path d="M0 452 218 322l159 106 182-136 122 121 228-160 291 168v379H0Z" fill="#3e6d52"/>
+  <path d="M1120 800H680c-21-85 188-129 126-212-61-82-275-7-326-99-45-82 89-99 245-112 184-15 215-91 154-174" fill="none" stroke="#d4b580" stroke-width="58"/>
+  <path d="M1120 800H680c-21-85 188-129 126-212-61-82-275-7-326-99-45-82 89-99 245-112 184-15 215-91 154-174" fill="none" stroke="#f0d8a4" stroke-width="39"/>
+</svg>

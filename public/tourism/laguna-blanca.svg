@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Reserva de la Biosfera Laguna Blanca</title>
+  <desc id="desc">Ilustración de una laguna de altura rodeada de cerros.</desc>
+  <rect width="1200" height="800" fill="#a8d0dd"/>
+  <path d="M0 402 183 222l144 149 169-192 145 189 190-153 169 170 200-122v537H0Z" fill="#677f7c"/>
+  <path d="M0 482 196 337l140 106 197-171 133 161 185-123 149 130 200-76v436H0Z" fill="#9bb09a"/>
+  <path d="M0 512c191-63 304-29 492-5 245 31 376-71 708-27v320H0Z" fill="#507f93"/>
+  <path d="M0 595c201-54 348 48 580 13 258-39 386 32 620-10v202H0Z" fill="#84b5c2"/>
+  <path d="M160 516c55 10 83 31 110 57-53 0-94-7-126-20zM865 539c65 1 114 22 147 47-82 10-137 1-177-18z" fill="#e5e7d6" opacity=".8"/>
+</svg>
